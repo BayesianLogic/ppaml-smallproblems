@@ -1,0 +1,26 @@
+## Solution description
+
+This is a solution to the small problem1 (CP#4).
+
+
+## Instructions
+
+This solution has a python file ‘prob1_gen.py’ that will read the input file and generated the blog file needed to solve the problem.
+
+‘prob1.blog’ specify all the distributions for the model for this problem.
+
+To run: ./run.sh param-file input-dir output-dir
+
+## Assumption
+1.The parameter of all the distributions is assumed to be the one stated in the detailed problem description
+2. The format of the input file is the same as ‘problem-1-data.csv’ given in the problem set
+
+##Output
+Look inside the output directory, ‘prob1_out’ , this specify the posterior distribution of w.
+
+## Parameter files
+
+A parameter file contains number of samples run by blog.
+
+`solution-smoketest` runs with less number of samples. Run about 75 seconds with the given input file.
+`solution-evaluation` runs with more number of samples.

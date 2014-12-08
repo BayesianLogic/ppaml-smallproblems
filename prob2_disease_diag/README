@@ -1,0 +1,26 @@
+## Solution description
+
+This is a solution to the problem2 (CP#4).
+
+
+## Instructions
+
+This solution has a python file ‘prob2_gen.py’ that will read the input file from the input-dir and generated the blog file needed to solve the problem.
+
+This solution still has a problem but the blog code generated is correct. We are trying to resolve this issue.
+
+To run: ./run.sh param-file input-dir output-dir
+
+## Assumption
+1. The format of the input files are the same as ‘problem-3-outputs.csv’ given in the problem set
+
+##Output
+
+The output of this problem still has a bug. Sorry.
+
+## Parameter files
+
+A parameter file contains number of samples run by blog.
+
+`solution-smoketest` runs with less number of samples. Run about a few seconds with the given input file.
+`solution-evaluation` runs with more number of samples.

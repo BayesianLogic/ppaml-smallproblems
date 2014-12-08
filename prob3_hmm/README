@@ -1,0 +1,30 @@
+## Solution description
+
+This is a solution to the problem3 (CP#4).
+
+
+## Instructions
+
+This solution has a python file ‘prob3_gen.py’ that will read the input file and generated the blog file needed to solve the problem.
+
+‘hmm_rule.blog’ states the hmm rule described in the problem description.
+Blog is ran twice first using just Likelihood-weighting algorithm to infer the posterior probability. This is done for query1 and query2. And the second time, blog is ran with 
+Bootstrap Particle filter.
+
+To run: ./run.sh param-file input-dir output-dir
+
+## Assumption
+1.The rule of the hmm is assumed to be the one stated in the detailed problem description
+2. The format of the input file is the same as ‘problem-3-outputs.csv’ given in the problem set
+
+##Output
+Query1: Look inside the output directory, ‘MAP_seq’ is a csv file which shows one sequence output by blog.
+Query2: Look inside the output directory, ‘hmm_out’ is a file which describes the posterior distribution
+Query3: Look inside the output directory, hmmfiltering_out is a file which describes the posterior distribution using the particle filter.
+
+## Parameter files
+
+A parameter file contains number of samples run by blog.
+
+`solution-smoketest` runs with less number of samples. Run about a few seconds with the given input file.
+`solution-evaluation` runs with more number of samples.

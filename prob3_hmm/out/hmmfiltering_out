@@ -1,0 +1,153 @@
+======== Query Results =========
+Number of samples: 1000
+Distribution of values for S(@0)
+	state[1]	1.0
+======== Query Results =========
+Number of samples: 1000
+Distribution of values for S(@1)
+	state[2]	0.7706618962432847
+	state[3]	0.1198568872987473
+	state[1]	0.10948121645796019
+======== Query Results =========
+Number of samples: 1000
+Distribution of values for S(@2)
+	state[3]	0.765217391304344
+	state[4]	0.12173913043478252
+	state[2]	0.10217391304347817
+	state[1]	0.010869565217391302
+======== Query Results =========
+Number of samples: 1000
+Distribution of values for S(@3)
+	state[4]	0.4043290043290023
+	state[3]	0.366233766233765
+	state[5]	0.16103896103896048
+	state[1]	0.03636363636363623
+	state[2]	0.03203463203463194
+======== Query Results =========
+Number of samples: 1000
+Distribution of values for S(@4)
+	state[5]	0.5954659949622096
+	state[4]	0.1652392947103262
+	state[3]	0.10931989924433154
+	state[1]	0.09370277078085562
+	state[2]	0.03627204030226673
+======== Query Results =========
+Number of samples: 1000
+Distribution of values for S(@5)
+	state[1]	0.6893617021276538
+	state[2]	0.11106382978723352
+	state[5]	0.11063829787233989
+	state[4]	0.049787234042552926
+	state[3]	0.039148936170212575
+======== Query Results =========
+Number of samples: 1000
+Distribution of values for S(@6)
+	state[2]	0.704132231404955
+	state[3]	0.1264462809917353
+	state[1]	0.12107438016528907
+	state[4]	0.027272727272727223
+	state[5]	0.021074380165289217
+======== Query Results =========
+Number of samples: 1000
+Distribution of values for S(@7)
+	state[3]	0.3258215962441302
+	state[2]	0.28356807511736953
+	state[4]	0.2629107981220646
+	state[5]	0.07323943661971802
+	state[1]	0.054460093896713385
+======== Query Results =========
+Number of samples: 1000
+Distribution of values for S(@8)
+	state[2]	0.5142857142857122
+	state[4]	0.19257142857142842
+	state[3]	0.14457142857142843
+	state[1]	0.08685714285714273
+	state[5]	0.06171428571428569
+======== Query Results =========
+Number of samples: 1000
+Distribution of values for S(@9)
+	state[4]	0.7604395604395595
+	state[3]	0.08864468864468877
+	state[2]	0.08168498168498178
+	state[1]	0.03809523809523818
+	state[5]	0.031135531135531205
+======== Query Results =========
+Number of samples: 1000
+Distribution of values for S(@10)
+	state[4]	0.7275590551181041
+	state[5]	0.10984251968503903
+	state[1]	0.10708661417322798
+	state[3]	0.03700787401574792
+	state[2]	0.01850393700787396
+======== Query Results =========
+Number of samples: 1000
+Distribution of values for S(@11)
+	state[1]	0.7330739299610906
+	state[5]	0.10972762645914477
+	state[4]	0.09688715953307458
+	state[2]	0.032295719844358216
+	state[3]	0.02801556420233484
+======== Query Results =========
+Number of samples: 1000
+Distribution of values for S(@12)
+	state[2]	0.7228628230616179
+	state[3]	0.11371769383697668
+	state[1]	0.11332007952286137
+	state[5]	0.026640159045725302
+	state[4]	0.023459244532802882
+======== Query Results =========
+Number of samples: 1000
+Distribution of values for S(@13)
+	state[2]	0.7209580838323348
+	state[3]	0.12934131736526983
+	state[4]	0.1229540918163675
+	state[1]	0.019960079840319406
+	state[5]	0.0067864271457086026
+======== Query Results =========
+Number of samples: 1000
+Distribution of values for S(@14)
+	state[4]	0.28273092369477704
+	state[3]	0.259437751004014
+	state[1]	0.2361445783132511
+	state[2]	0.19116465863453647
+	state[5]	0.03052208835341341
+======== Query Results =========
+Number of samples: 1000
+Distribution of values for S(@15)
+	state[4]	0.7171026156941588
+	state[3]	0.10623742454728317
+	state[1]	0.07404426559356098
+	state[2]	0.06438631790744431
+	state[5]	0.038229376257545085
+======== Query Results =========
+Number of samples: 1000
+Distribution of values for S(@16)
+	state[4]	0.2611570247933871
+	state[1]	0.22809917355371778
+	state[5]	0.22066115702479222
+	state[2]	0.20826446280991645
+	state[3]	0.0818181818181814
+======== Query Results =========
+Number of samples: 1000
+Distribution of values for S(@17)
+	state[3]	0.570078740157473
+	state[1]	0.12965879265091723
+	state[2]	0.11496062992125859
+	state[4]	0.10446194225721664
+	state[5]	0.08083989501312247
+======== Query Results =========
+Number of samples: 1000
+Distribution of values for S(@18)
+	state[5]	0.31111111111110956
+	state[3]	0.28518518518518343
+	state[4]	0.2481481481481469
+	state[2]	0.0888888888888884
+	state[1]	0.06666666666666635
+======== Query Results =========
+Number of samples: 1000
+Distribution of values for S(@19)
+	state[1]	0.6103194103194052
+	state[4]	0.12825552825552758
+	state[5]	0.09189189189189133
+	state[3]	0.09090909090909037
+	state[2]	0.07862407862407816

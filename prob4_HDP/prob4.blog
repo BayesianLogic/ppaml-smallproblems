@@ -1,0 +1,29 @@
+type Document;
+type Word;
+Document document[100000];
+Word word[10473];
+
+fixed Real gamma = 1.0;
+fixed Real alpha0 = 1.0;
+fixed Real eta = 0.01;
+fixed Real W = 10473;
+fixed Integer truncation = 100;
+
+random RealMatrix H(Integer t) ~ 
+	if t >= 1 && t <= truncation then Dirichlet(eta);
+
+random RealMatrix G0_gem ~ GEM(gamma);
+random Integer G0_select(Document d) ~ Discrete(G0_gem);
+random RealMatrix G0_value(Document d, Integer t) ~ 
+	if t >= 1 && t <= truncation then
+		H(G0_select(d));
+
+random RealMatrix Gj_gem(Document d) ~ GEM(alpha0);
+random Integer Gj_select(Document d, Word w) ~ Discrete(Gj_gem);
+random RealMatrix Gj_value(Document d, Word w) ~
+	G0_value(d, Gj_select(d, w));
+
+
+// topic that generated word token i of document j
+random Integer x(Document d, Word w) ~ Discrete(Gj_value(d, w));
+
